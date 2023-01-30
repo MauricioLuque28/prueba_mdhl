@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+.tituloHome {
+    color: black;
+    width: 100%;
+    height: 300px;
+    text-shadow: 8px 4px 2px rgba(0,0,0,0.4);
+    font-size: 1.5em;
+    background-image: url(../img/design1_image2.jpg);
+    background-position-y: -45px;
+    background-size: cover;
+}
+
+.tituloAbout {
+    color: black;
+    width: 100%;
+    height: 300px;
+    text-shadow: 8px 4px 2px rgba(0,0,0,0.4);
+    font-size: 1.5em;
+    background-image: url(../img/design1_image2.jpg);
+    background-position-y: -45px;
+    background-size: cover;
+}
+
+.tituloContact {
+    color: black;
+    width: 100%;
+    height: 300px;
+    text-shadow: 8px 4px 2px rgba(0,0,0,0.4);
+    font-size: 1.5em;
+    background-image: url(../img/design1_image2.jpg);
+    background-position-y: -45px;
+    background-size: cover;
+}
+
+h1 {
+    color: black;
+    width: 800px;
+}
+
+h2 {
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin: 2px;
+    padding: 5px;
+}
+
+.imagenLogo {
+    width: 250px;
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    top: 55%;
+}
+
+img {
+    width: 100%;
+    text-align: center;
+}
+
+nav>a {
+    display: inline-block;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    margin-left: 40px;
+}
+
+.botonesHome {
+    display: inline-block;
+    text-align: left;
+    width: 200px;  
+    position: relative;
+    bottom: 70px;
+}
+
+.textoHome {
+    display: inline-block;
+    text-align: left;
+    width: 300px;
+    padding-left: 40px;
+}
+
+body {
+    padding: 100px;
+}
+
+main {
+    padding-top: 40px;
+    display: relative;
+}
+
+.botonesAbout {
+    display: inline-block;
+    text-align: left;
+    width: 200px;  
+    position: relative;
+    bottom: 293px;
+}
+.textoAbout {
+    display: inline-block;
+    text-align: left;
+    width: 600px;
+    padding-left: 40px;
+}
+
+.botonesContact {
+    display: inline-block;
+    text-align: left;
+    width: 200px;  
+    position: relative;
+    top: 1px;
+}
+
+.textoContact {
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    width: 600px;
+    padding-left: 40px;
+    bottom: 80px;
+}
+
+h3 {
+    font-style: oblique;
+}
+
+div>p {
+    position: relative;
+    left: 30px;
+}
+
+div a {
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+div a:hover {
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    font-size: smaller;
+    font-weight: bolder;
+    font-style: oblique;
+    padding-top: 50em;
+}
+
+footer a:hover{
+    color: orange;
+}
